@@ -84,6 +84,9 @@ mvn exec:java -Dexec.mainClass="com.example.Main"
 # Запуск тестов
 mvn test
 
+# Генерация JavaDoc в директорию target/javadoc
+mvn javadoc:javadoc
+
 ## Функциональность
 
 ### Основные возможности:
@@ -134,3 +137,4 @@ Min salary: 1000.00
 - Data Transfer Object - классы Person, Department
 - Service Layer - CsvPersonReader
 - Factory Method - создание объектов из CSV
+
